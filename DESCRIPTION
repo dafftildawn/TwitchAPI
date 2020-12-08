@@ -1,0 +1,11 @@
+Package: RTwitchAPI
+Type: Package
+Title: Collects Interesting Information from Twitch API using R
+Version: 0.1.0
+Author: Marcus Daffner
+Maintainer: Marcus Daffner <mdaffner@usf.edu>
+Description: Connects to the Twitch API using R, can spit out a word cloud  of of top 100 stream titles
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
