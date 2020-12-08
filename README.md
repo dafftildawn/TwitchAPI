@@ -29,7 +29,7 @@ This package directly connects to [Twitch's Developer Console](https://dev.twitc
 
 You must register for a Twitch account and then register your console
 
-To register your console you must
+To [register your console](https://dev.twitch.tv/console) you must
 
 + Create a **Name**
 
@@ -37,7 +37,7 @@ To register your console you must
 
 + Choose a **Category**
 
-+ Copy and Paste the end of your URL into the **Client ID** section
++ Copy and paste the end of your URL into the **Client ID** section
 
 _Example of Client ID:_ https://dev.twitch.tv/console/apps/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"**
 
@@ -71,7 +71,7 @@ twitch_auth()
 
 Once you this code has been  run you can begin making requests
 
-Test that you setup the package correctly by running this code
+Test that you set up the package correctly by running this code
 
 ```{r, eval = FALSE}
 #pulls information on top 15 streams currently live and in english
@@ -101,13 +101,13 @@ If you get a result similiar to the example above you are successfully connected
 
 ## Usage
 
-Currently the TwitchAPI package only has one function that pulls the top 100 streams currently going on and compiles all of the titles into a wordcloud showcasing the most popular terms used in titles currently. 
+Currently the TwitchAPI package only has one function that pulls the top 100 streams  top 100 streams currently active and compiles all of the titles into a wordcloud showcasing the most popular terms used in these titles . 
 
 This is achieved by using the command 
 
 ```{r, eval = FALSE}
 #setup authentication
-top100_streams_title_wordcloud( )
+top100_streams_title_wordcloud()
 ```
 
 This function is helpful for those studying ongoing trends in the Twitch community as well as those who are looking to see what information is relevant and needed in their own stream titles. 
